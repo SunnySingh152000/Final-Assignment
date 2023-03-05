@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fitness Freaks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <style>
+        .body-section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:580px;
+            background-color: aquamarine;
+        }
+        .form{
+            background-color: #f1f1f1;
+            padding: 50px ;
+        }
+        form{
+            padding: 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="images/Logo.jpeg" alt="Logo">
+        <h1>Fitness Freaks</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="nutrition.html">Nutrition</a>
+            <a href="blog.html">Blog</a>
+            <a href="#">Logout</a>
+        </nav>
+    </div>
+    <div class="body-section">
+        <div class="form">
+            <form action="home.html">
+                <label for="Name">Name:</label><br>
+                <input type="text" name="Name" required><br><br>
+        
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" required><br><br>
+        
+                <label for="password">Password:</label><br>
+                <input type="password" name="password"required><br><br>
+        
+                <label for="cnf-password">Confirm Password:</label><br>
+                <input type="password" name="cnf-password"required><br><br>
+        
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label><br><br>
+        
+                <input class="btn" type="submit" value="Sign Up">
+                <button class="btn"><a href="./Login.html">Login</a></button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div>Copyright &copy; Fitness Freaks 2023 💪.</div>
+        <div>
+        <a href="https://www.facebook.com/">Facebook</a>
+        <a href="https://www.instagram.com/">Instagram</a>
+        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D">Twitter</a>
+        </div>
+    </div>
+   
+</body>
+</html>
